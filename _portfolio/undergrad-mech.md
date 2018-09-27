@@ -10,6 +10,8 @@ During my final year of Undergraduate studies I took a Mechatronics course durin
 I was lucky to be surrounded by an incredibly supportive and hard-working team comprised of [Ian Zetner](https://www.linkedin.com/in/ian-zentner-57b317110/) and [Josh Gutterman](https://www.linkedin.com/in/jgutterman/) who made this very stressful time an experience of a life-time. Our robot named **T**hat **L**ooks **A**bout **R**ight (TLAR) Binks, was checked off ahead of the deadline and was one of only 2 robots to not get stage fright and complete the challenge during the public demo. A video of our check-off: 
 <video>
 <source src="https://vardulov.github.io/images/mechatronics-checkoff.mov" type="video/mov" markdown="1" > 
+</video>
+
 and our [public demo](https://youtu.be/qG9_T35bmtY?t=15m40s) are available online. 
 
 [A complete and detailed report of our design and implementation is also made available](files/mechatronics-report.pdf)
