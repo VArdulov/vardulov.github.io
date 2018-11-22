@@ -2,7 +2,7 @@
 title: "Multimodal Interaction Modeling of Child Forensic Interviewing"
 collection: publications
 permalink: /publication/2018-10-16-Multimodal-Interaction-Modeling-of-Child-Forensic-Interviewing
-excerpt:"This paper looks at multimodal (language, affect, and speech) models of child forensic interviewing. In particular we explore Linear Mixture Models (LMMs) and Dynamic Mode Decomposition with Control (DMDc)
+excerpt: "This paper looks at multimodal (language, affect, and speech) models of child forensic interviewing. In particular we explore Linear Mixture Models (LMMs) and Dynamic Mode Decomposition with Control (DMDc)
 date: 2018-16-10
 venue: 'ACM International Conference on Multimodal Interactions'
 paperurl: 'https://dl.acm.org/citation.cfm?doid=3242969.3243006'
