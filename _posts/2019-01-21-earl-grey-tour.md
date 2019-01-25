@@ -9,7 +9,7 @@ tags:
 The Great Earl Grey Tour of Los Angeles County
 ======
 
-#Introduction
+# Introduction
 
 At some point in the haze of my first year of graduate school, at some dinner, a close friend of mine, DK, mentioned that his friends had recently opened up a ice-cream shop in Redondo Beach, and that they had a great scoop of Earl Grey ice-cream. My sister, who was at one point part of the entertainment production grind in LA, reminisced about her favorite Earl Grey macaroons. This reminded me of the Earl Grey tea that I used to get at a small coffee shop not far from my house, and thus the inception of the Earl Grey tour was born.
 
