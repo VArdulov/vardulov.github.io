@@ -1,11 +1,11 @@
 ---
 title: "Immersive data interaction for planetary and earth sciences"
 collection: publications
-permalink: publications/2017-03-18-Immerisive-data-interaction-for-planetary-and-earth-sciences
+permalink: /publication/2017-03-18-Immerisive-data-interaction-for-planetary-and-earth-sciences
 excerpt: 'This paper documents the work surrounding early data visualization and mission planning in VR for NASA JPL'
 date: 2017-03-18
 venue: 'IEEE Virtual Reality 2017'
-paperurl: 'https://dl.acm.org/citation.cfm?doid=3242969.3243006'
+paperurl: '(https://ieeexplore.ieee.org/abstract/document/7892277'
 citation: 'V. Ardulov and O. Pariser, "Immersive data interaction for planetary and earth sciences," 2017 IEEE Virtual Reality (VR), Los Angeles, CA, 2017, pp. 263-264.'
 ---
 
