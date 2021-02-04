@@ -3,7 +3,7 @@ permalink: /
 title: "Victor Ardulov's Homepage"
 excerpt: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
