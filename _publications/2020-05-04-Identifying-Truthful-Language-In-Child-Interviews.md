@@ -2,7 +2,7 @@
 title: "Identifying Truthful Language in Child Interviews"
 collection: publications
 permalink: /publication/2020-05-04-Identifying-Truthful-Language-in-Child-Interviews
-excerpt: 'Building on existing approaches, we analyze how the vocabulary and emotional content of children's language use indicates truthfulness pointing to specific psycho-linguistic features that models correlate with truthfulness.'
+excerpt: 'Building on existing approaches, we analyze how the vocabulary and emotional content of children\'s language use indicates truthfulness pointing to specific psycho-linguistic features that models correlate with truthfulness.'
 date: 2020-05-04
 venue: 'ICASSP 2020'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9053386'
