@@ -1,0 +1,46 @@
+---
+title: 'Learning Koopman Invariant Subspaces for Dynamic Mode Decomposition (A PyTorch Adventure)'
+date: 2021-02-05
+permalink: /posts/2021/02/lkis-in-pytorch/
+tags:
+  - free-form
+---
+
+Learning Koopman Invariant Subspaces for Dynamic Mode Decomposition (A PyTorch Adventure - Part 2)
+======
+
+By: Victor Ardulov
+
+
+I think I got it, the gist of the paper/technique/how the code is supposed to work, and I'm working on my own implementation.
+The epiphany was that the end-to-end model is effectively a fancy version of an auto-encoder. Well, sorta... The key 
+insight I made was that $$KIS$$ (The notation I have chosen to represent the end-to-end model) is effectively a modified
+auto-encoder in that given some dataset $$Y = [y_0, y_1, ..., y_n]$$ such that $$y \in \mathcal{Y} = \mathbb{R}^{d}$$ is
+the $d$-dimensional domain of out observations then $$KIS: \mathcal{Y}^{L} \rightarrow \mathcal{Y}$$ but it does so through
+a non-linear embedding space where $$L$$ is the delay used to represent the time alignment.
+
+The other insight was into recognizing that the procedure laid out in the original code base to compute gradient and train
+the model was largely overkill. Mainly what I mean is that the researchers make the model return what they refer to as 
+$$Y_0$$, $$Y_1$$, $$g_0$$ and $$g_1$$ in order to compute the losses. However as we realized in the previous post, the
+data is just a time shifted varient of themselves, so by just return $$\hat{Y} = Y_0 \cup Y_1$$ which is necessary for 
+computing the reconstructive loss anyway, and $$g = g_0 \cup g_1$$ then I can extract out $$g_0$$ and $$g_1$$ "on the fly".
+
+```python
+time_delayed_ys, y_true = next(batch_iterator)
+
+g_pred, y_pred = lkis(time_delayed_ys)
+g_0 = g_pred[:-1]
+g_1 = g_pred[1:]
+
+loss = combined_loss(y_true, y_pred, g_0, g_1)
+```
+
+Now I just need the single pair of outputs from the network to really hone in on the thing being predicted. So finally,
+the point that I was trying to get to about the fancy auto-encoder makes sense now. The input is a time-delayed time-step,
+and the output is the last time-step, however when the model is training you also use the intermediate steps in order to 
+learn the rule invariant representation of $$A = (g_1 \cdot g_0^{\dagger})(g_0)$$ which abides to the $$g_1 = A g_0$$ 
+logic, ergo the invariant subspace angle.
+
+I also spent some time this weekend contemplating how this might be extended to incorporate the controll signal, and I think
+it's pretty straight-forward to expect a small update on that in the near future. That will hopefully be more accessible 
+than the original paper on this approach.
