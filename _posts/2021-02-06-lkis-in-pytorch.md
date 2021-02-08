@@ -1,6 +1,6 @@
 ---
 title: 'Learning Koopman Invariant Subspaces for Dynamic Mode Decomposition (A PyTorch Adventure)'
-date: 2018-02-05
+date: 2021-02-05
 permalink: /posts/2021/02/lkis-in-pytorch/
 tags:
   - free-form
@@ -29,8 +29,8 @@ evolution of the state via, $$s_{t+1} = f(s_{t})$$, then imagine we have some da
 that maps the state into a different space where we can actually access, let $$y_t = g(s_t)$$.
 
 They introduce a lot of additional notation, but it's largely to ground the idea in a dynamical system framework. More 
-specifically they introduce the notation of $$Y_0 = [g(s_0), g(s_1), \hdots, g(s_{T-1})]$$ and then 
-$$Y_1 = [g(f(s_0)), g(f(s_1)), \hdots, g(f(s_{T-1}))]$$ you'll notice that from a data point of view, $$Y_0$$ is only a 
+specifically they introduce the notation of $$Y_0 = [g(s_0), g(s_1), ..., g(s_{T-1})]$$ and then 
+$$Y_1 = [g(f(s_0)), g(f(s_1)), ..., g(f(s_{T-1}))]$$ you'll notice that from a data point of view, $$Y_0$$ is only a 
 single time step shift from $$Y_1$$. 
 
 Finally (for the purposes of this post) they introduce a couple of other ideas. Notably since we cannot directly observe
@@ -38,7 +38,7 @@ $$s_t$$ and we don't even really have a good way to guess at the underlying dime
 embedding that utilizes a sliding window to predict $$\hat{x}_t = \phi(y_t)$$.
 
 They introduce a reconstruction loss which is simply the mean squared error with regards to the original signal, but the
-confusing part to me is that they utilize a network called $g$ that is said to predict $g(s_t)$$ but then there is another
+confusing part to me is that they utilize a network called $g$ that is said to predict $$g(s_t)$$ but then there is another
 network $$h$$ that maps from $$g$$ to the domain of $$y$$ which is really confusing me now since before the assumption was
 that $$y = g(s)$$. 
 
