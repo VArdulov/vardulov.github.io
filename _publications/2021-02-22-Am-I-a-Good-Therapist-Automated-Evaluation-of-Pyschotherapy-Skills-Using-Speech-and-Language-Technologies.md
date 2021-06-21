@@ -1,0 +1,12 @@
+---
+title: "*Am I A Good Therapist?* Automated Evaluation Of PsychotherapySkills Using Speech And Language Technologies"
+collection: publications
+permalink: /publication/2021-02-22-Am-I-a-Good-Therapist-Automated-Evaluation-of-Pyschotherapy-Skills-Using-Speech-and-Language-Technologies
+excerpt: 'An system overview of an end-to-end automated psychotherapy evaluation pipeline developed by a large multi-year collaboration'
+date: 2021-02-22
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2102.11265'
+citation: 'Flemotomos, N., Martinez, V. R., Chen, Z., Singla, K., Ardulov, V., Peri, R., ... & Narayanan, S. (2021). "Am I A good therapist?" automated evaluation of psychotherapy skills using speech and language technologies. CoRR, abs/2102.11265.'
+---
+**Abstract**:With the growing prevalence of psychological interventions, it is vital to have measures which rate the effectiveness of psychological care to assist in training, supervision, and quality assurance of services. Traditionally, quality assessment is addressed by human raters who evaluate recorded sessions along specific dimensions, often codified through constructs relevant to the approach and domain. This is however a cost-prohibitive and time-consuming method that leads to poor feasibility and limited use in real-world settings. To facilitate this process, we have developed an automated competency rating tool able to process the raw recorded audio of a session, analyzing who spoke when, what they said, and how the health professional used language to provide therapy. Focusing on a use case of a specific type of psychotherapy called Motivational Interviewing, our system gives comprehensive feedback to the therapist, including information about the dynamics of the session (e.g., therapist's vs. client's talking time), low-level psychological language descriptors (e.g., type of questions asked), as well as other high-level behavioral constructs (e.g., the extent to which the therapist understands the clients' perspective). We describe our platform and its performance using a dataset of more than 5,000 recordings drawn from its deployment in a real-world clinical setting used to assist training of new therapists. Widespread use of automated psychotherapy rating tools may augment experts' capabilities by providing an avenue for more effective training and skill improvement, eventually leading to more positive clinical outcomes.
+[<i>Available on arXiv</i>](https://arxiv.org/abs/2102.11265)
