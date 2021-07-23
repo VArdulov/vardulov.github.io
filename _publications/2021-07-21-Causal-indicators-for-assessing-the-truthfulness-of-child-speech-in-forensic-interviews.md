@@ -2,7 +2,7 @@
 title: "Causal indicators for assessing the truthfulness of child speech in forensic interviews"
 collection: publications
 permalink: /publication/2021-07-21-Causal-indicators-for-assessing-the-truthfulness-of-child-speech-in-forensic-interviews
-excerpt: 'Through the paradigm of discerning ADHD and ASD we show the advantages of considering diagnostic classification as a decision-making process rather than a traditional machine learning problem '
+excerpt: 'Through the utilization of Granger Causal Analysis on speech signals between a child and an adult interviewer, we are able to use this to discern when a child is telling the truth about a non-disclosure'
 date: 2021-07-22
 venue: 'Computer Speech and Language'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0885230821000693'
