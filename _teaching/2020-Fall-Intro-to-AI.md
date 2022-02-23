@@ -1,5 +1,5 @@
 ---
-title: "CSCI 360: Introduction to Artificial Intelligence
+title: "Introduction to Artificial Intelligence"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-Fall-Intro-to-AI
