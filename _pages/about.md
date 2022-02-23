@@ -8,13 +8,35 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my site!
+Welcome to my personal site!
 ======
 
-Welcome to a collection and presentation of some of my most recent works. I'm currently a PhD student in the Signal Analysis and Interpretation Lab (SAIL) under the advisement of Dr. Shrikanth Narayanan at the University of Southern California (USC).
+I am a Computer Science PhD candidate at University of Southern California, where I conduct my research as a member of 
+the [Signal Analysis and Interpretation Lab (SAIL)](https://sail.usc.edu) under the advisement of 
+[Shrikanth Narayanan](https://sail.usc.edu/people/shri.html).
 
-My interests lie, in understanding interpersonal influences, specifically during dyadic and multi-agent interactions. I believe with the correct observations and priors, we can construct models that have far reaching diagnostic and therapeutic implications.
+During my time at SAIL, I have focused my research on studies of dyadic interaction where one of the interlocutors acts 
+similar to a guide. My approaches have been grounded in a view of behavioral interactions as control-affine dynamical 
+systems, utilizing observational data as a means to fit models which can help us better describe the individuals' behaviors
+and in turn navigate the interaction towards a desired outcome. These approaches have demonstrated value in applications 
+to domains such as truth identification in child interviews, automated psychotherapist evaluation, and differentiating 
+behavioral disorders in children under diagnostic settings.
 
-In my spare time, I am a triathlete, in-door boulder-er(?), and fan of the San Jose Sharks. I can also be frequently found at preppy coffee shops, and classical music concerts.
+My interests sprang from a desire to improve equity and access to mental and behavioral health resources. I believe with
+correct models, data, and objectives these approaches would allow us to design therapist support tools that would allow 
+clinical practioners to more readily adapt their therapeutic approaches to specific clients and situations, futher still
+reducing their own burnout.
 
-Feel free to explore, and stay tuned for more blog entries!
+Outside of SAIL, I had the pleasure to be a part of the team the started [CalypsoAI](https://calypsoai.com) where I got 
+to work on developing model evaluation software and tools. My work largely focused on bringing and codifying best practices
+in machine-learning, and exploring various methods for incorporating measures of model testing into a product.
+
+When I'm not working, I enjoy watching hockey, going rock-climbing, run-bike-swimming my way through a triathlon, reading
+books, and exploring local coffee shops and  breweries. 
+
+To dive more deeply into my work, checkout the [my papers](./publications.md). To glean some of the random project and 
+thoughts that capture my imagination from time-to-time, checkout [my blog posts](./year-archive.html). Finally a pdf 
+version of [my Curriculum Vitae](../files/Curriculum_Vitae_February2022.pdf)
+
+
+
