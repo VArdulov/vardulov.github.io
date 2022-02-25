@@ -1,7 +1,7 @@
 ---
 title: 'Learning Koopman Invariant Subspaces for Dynamic Mode Decomposition (A PyTorch Adventure)'
 date: 2021-02-05
-permalink: /posts/2021/02/lkis-in-pytorch/
+permalink: /posts/2021/02/lkis-in-pytorch-part3/
 tags:
   - free-form
 ---
@@ -41,6 +41,6 @@ and the output is the last time-step, however when the model is training you als
 learn the rule invariant representation of $$A = (g_1 \cdot g_0^{\dagger})(g_0)$$ which abides to the $$g_1 = A g_0$$ 
 logic, ergo the invariant subspace angle.
 
-I also spent some time this weekend contemplating how this might be extended to incorporate the controll signal, and I think
+I also spent some time this weekend contemplating how this might be extended to incorporate the control signal, and I think
 it's pretty straight-forward to expect a small update on that in the near future. That will hopefully be more accessible 
 than the original paper on this approach.

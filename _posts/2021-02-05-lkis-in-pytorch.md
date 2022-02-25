@@ -1,7 +1,7 @@
 ---
 title: 'Learning Koopman Invariant Subspaces for Dynamic Mode Decomposition (A PyTorch Adventure)'
 date: 2021-02-05
-permalink: /posts/2021/02/lkis-in-pytorch/
+permalink: /posts/2021/02/lkis-in-pytorch-part1/
 tags:
   - free-form
 ---
