@@ -1,11 +1,11 @@
 ---
-title: ""
+title: "Faithfulness Hallucination Detection in Healthcare AI"
 collection: publications
-permalink: /publication/2022-04-28-Local-Dynamic-Modes-of-Cognitive-Behavioral-Therapy.md
+permalink: /publication/2024-06-01-Faithfulness-Hallucination-Detection-in-Healthcare-AI.md
 excerpt: 'Using Nuero-Symbolic reasoning to identify and classify when LLM based summarization hallucinated medical facts.'
-date: 2022-06-04
-venue: 'ICASSP 2023'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/10094755'
+date: 2022-06-01
+venue: 'KDD 2024 Workshop Artificial Intelligence and Data Science for Healthcare'
+paperurl: 'https://openreview.net/pdf?id=6eMIzKFOpJ'
 citation: 'Vishwanath, P.R., Tiwari, S., Naik, T.G., Gupta, S., Thai, D.N., Zhao, W., Kwon, S., Ardulov, V., Tarabishy, K., McCallum, A. and Salloum, W., 2024, June. Faithfulness hallucination detection in healthcare AI. In Artificial Intelligence and Data Science for Healthcare: Bridging Data-Centric AI and People-Centric Healthcare.'
 ---
 **Abstract**: Faithfulness hallucinations, where AI-generated contents diverge from input contexts, pose significant 
