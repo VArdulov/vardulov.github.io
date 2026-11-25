@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Victor Ardulov"
 title_separator          : "-"
 name                     : &name "Victor Ardulov"
-description              : &description "PhD student @ USC SAIL"
+description              : &description "Research Engineer @ Workday AI Research"
 url                      : https://vardulov.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "VArdulov/vardulov.github.io"
@@ -81,11 +81,11 @@ analytics:
 author:
   name             : "Victor Ardulov"
   avatar           : "profile.jpg"
-  bio              : "PhD Student studying dynamical system and control models of human behavior and interaction"
-  location         : "University of Sourthern California"
-  employer         : "SAIL"
+  bio              : "Research Scientist working on robust and trustworthy agents"
+  location         : "Santa Clara, CA"
+  employer         : "Workday Inc"
   googlescholar    : "https://scholar.google.com/citations?user=uxrfU2IAAAAJ&hl=en&oi=ao"
-  email            : "ardulov@usc.edu"
+  email            : "victor.ardulov@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,9 +96,9 @@ author:
   github           : "VArdulov"
   google_plus      :
   keybase          :
-  instagram        : "majesitcvitya"
+  instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "victorardulov"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
