@@ -3,7 +3,7 @@ title: "Local Dynamic Modes of Cognitive Behavioral Therapy"
 collection: publications
 permalink: /publication/2022-04-28-Local-Dynamic-Modes-of-Cognitive-Behavioral-Therapy.md
 excerpt: 'Looking at the dominant modes derived from the embeddings of CBT talk turns reveals classifiable trajectories. This implies that the linguistic dynamics of these conversations can be used to steer them in the future'
-date: 2022-04-38
+date: 2022-04-28
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2205.09752'
 citation: 'Ardulov, V., Creed, T. A., Atkins, D. C., & Narayanan, S. (2022). Local dynamic mode of cognitive behavioral therapy. arXiv preprint arXiv:2205.09752.'

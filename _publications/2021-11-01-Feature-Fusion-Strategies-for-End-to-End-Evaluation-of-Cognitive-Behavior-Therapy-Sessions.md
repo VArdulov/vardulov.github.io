@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2021-11-01-Feature-Fusion-Strategies-for-End-to-End-Evaluation-of-Cognitive-Behavior-Therapy-Sessions
 excerpt: 'We analyze the use of MI codes as a intermediate feature to improve the automatic prediction of CBT adherence via CTRS score'
 date: 2021-11-01
-venue: 'arXiv'
+venue: 'IEEE Engineering in Medicine & Biology Society'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9629694'
 citation: 'Chen, Z., Flemotomos, N., Ardulov, V., Creed, T. A., Imel, Z. E., Atkins, D. C., & Narayanan, S. (2021, November). Feature fusion strategies for end-to-end evaluation of cognitive behavior therapy sessions. In 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC) (pp. 1836-1839). IEEE.'
 ---
